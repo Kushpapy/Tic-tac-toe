@@ -1,0 +1,46 @@
+:root{
+   --text: rgb(44, 41, 44);
+   --bg:rgb(247,239,247);
+   --purple: rgb(140, 0, 255);
+   --alt-bg:rgb(79, 10, 190)
+}
+
+body{
+    margin: 0;
+    font-family: "Open-sans", sans-serif;
+    color: var(--text);
+    background-color: var(--bg);
+}
+
+#main-header{
+    background-color: var(--purple);
+    color: white;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.btn{
+     font:inherit;
+     padding: 0.5rem 1.5rem;
+     background-color: var(--purple);
+     border: 1px solid var(--purple);
+     color:white;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+.btn-alt{
+background-color: transparent;
+border-color: transparent;
+color: var(--purple);
+}
+
+.btn:hover{
+    background-color: var(--alt-bg);
+    border-color: var(--alt-bg);
+}
+
+.btn-alt:hover{
+    background-color: rgb(230, 201, 252);
+    border-color: transparent;
+}
